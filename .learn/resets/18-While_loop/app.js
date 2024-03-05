@@ -1,9 +1,9 @@
 //fix this function:
 function startCounting() {
 	let counter = 100;
-	while (counter >= 0) {
+	while (counter <= 100) {
 		counter--;
-		console.log(counter + 1);
+		console.log(counter);
 	}
 
 	return counter;
