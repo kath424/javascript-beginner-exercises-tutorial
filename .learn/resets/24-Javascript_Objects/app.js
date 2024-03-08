@@ -18,7 +18,7 @@ var person2 = {
 
 var family = {
     lastName: "Doe",
-    members: [person, person2, person3]   //Array of objects, don't forget to add Jimmy
+    members: [person, person2]   //Array of objects, don't forget to add Jimmy
 };
 
 
@@ -32,17 +32,6 @@ function addAllFamilyLuckyNumbers(anArray){
 }
 
 //Enter all your code here:
-person.luckyNumbers[3] = 33;
-console.log(person)
-
-var person3 = {
-    name: "Jimmy",
-    lastName: "Doe",
-    age: 13,
-    gender: "male",
-    luckyNumbers: [1, 2, 3, 4],
-    significantOther: null
-};
 
 
 //Do not make changes below:
