@@ -4,5 +4,4 @@ function getRandomInt()
 	return randomNumber;
 }
 
-
 console.log(getRandomInt());
